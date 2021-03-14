@@ -1,0 +1,53 @@
+{
+  "name": "@nick-bull/react-native-debug-address-exemplar",
+  "title": "React Native Debug Address",
+  "description": "Example React Native android app using `@nick-bull/react-native-debug-address`",
+  "version": "0.3.0",
+  "author": {
+    "name": "Nick Bull",
+    "username": "nick-bull",
+    "email": "nick@bull.dev",
+    "url": "https://bull.dev"
+  },
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "keywords": [
+    "react-native"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nick-bull/react-native-debug-address-exemplar.git",
+    "baseUrl": "https://github.com/nick-bull/react-native-debug-address-exemplar"
+  },
+  "bugs": {
+    "url": "https://github.com/nick-bull/react-native-debug-address-exemplar/issues"
+  },
+  "homepage": "https://github.com/nick-bull/react-native-debug-address-exemplar#readme",
+  "main": "index.js",
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@nick-bull/react-native-debug-address": "^0.2.0",
+    "react": "16.13.1",
+    "react-native": "0.63.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/runtime": "^7.8.4",
+    "@react-native-community/eslint-config": "^1.1.0",
+    "babel-jest": "^25.1.0",
+    "babel-plugin-transform-inline-environment-variables": "^0.4.3",
+    "eslint": "^6.5.1",
+    "jest": "^25.1.0",
+    "metro-react-native-babel-preset": "^0.59.0",
+    "react-test-renderer": "16.13.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+}
