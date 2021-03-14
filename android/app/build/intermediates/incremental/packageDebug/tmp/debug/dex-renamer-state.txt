@@ -1,0 +1,4 @@
+#Sun Mar 14 00:29:17 GMT 2021
+base.0=/home/willow/Documents/tests/ReactNativeDebugAddressExemplar/android/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
